@@ -1,0 +1,64 @@
+#graphic-container { width:100%; font-family:Georgia, "Times New Roman", Times, serif; line-height:1.4em; max-width:1230px;}
+#graphic-container .estirar:after{content:".";display:block;height:0;clear:both;visibility:hidden}
+#graphic-container .estirar{display:inline-block}
+#graphic-container .estirar{display:block}
+* html .estirar{height:1px}
+#graphic-container .red-color {color:#9B1518;}
+
+#graphic-container #chart {width:100%;}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: none;
+  shape-rendering: crispEdges;
+}
+
+.area {
+  fill:rgba(151,155,150,0.3);
+}
+
+#graphic-container .tick {
+  font-family:Arial, Helvetica, sans-serif;
+	font-size:0.85em;
+}
+
+#graphic-container text {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:0.85em;
+}
+
+circle {
+	fill:rgba(100,100,100,0);
+}
+
+circle:hover {
+	stroke:rgba(150,25,25,0.7);
+	cursor:pointer;
+}
+
+#graphic-container #tagname { 
+	padding:0.3em; 
+	position:absolute; 
+	border:1px solid #EEE; 
+	z-index:300; 
+	background:#FFF; 
+	font-family:Arial, Helvetica, sans-serif;
+	-moz-box-shadow: 3px 3px 5px rgba(0,0,0,0.2);
+	-webkit-box-shadow: 3px 3px 5px rgba(0,0,0,0.2);
+	box-shadow: 3px 3px 5px rgba(0,0,0,0.2);
+}
+
+#graphic-container #tagname span{ 
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+
+@media only screen and (min-width: 500px) and (max-width: 768px) {
+}
+
+@media only screen and (max-width: 500px) {
+	#graphic-container .tick {
+	font-family:"Benton Sans Bold", Arial, Helvetica, sans-serif;
+	font-size:0.5em;
+}
